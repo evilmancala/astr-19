@@ -23,6 +23,7 @@ python_table = tabulate(table_data, tablefmt="grid",
 	headers=table_header,floatfmt=".3f")
 
 def main():
+	print(table_data) #quick look into table_data
 	print(python_table) #show table
 
 #main
